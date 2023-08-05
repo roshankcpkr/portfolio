@@ -26,7 +26,8 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'Physicalli',
-    description: 'Physicalli is a platform for finding experts or personals for physical presence demanding jobs. Platform made using reactjs, aws amplify designed to connected professionals with clients.',
+    description:
+      'Physicalli is a platform for finding experts or personals for physical presence demanding jobs. Platform made using reactjs, aws amplify designed to connected professionals with clients.',
     stack: ['Graphql', 'DynamoDB', 'Reactjs'],
     sourceCode: 'https://github.com/roshankcpkr/physicalli',
   },
@@ -42,8 +43,8 @@ const projects = [
     description:
       'NPM package that enable users to easily add chatgpt api in their application',
     stack: ['JavaScript', 'Nodejs'],
-    sourceCode: 'https://github.com/roshankcpkr/chatgptapi',  },
-
+    sourceCode: 'https://github.com/roshankcpkr/chatgptapi',
+  },
 ]
 
 const certifications = [
