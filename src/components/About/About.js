@@ -6,6 +6,7 @@ import './About.css'
 import { ThemeContext } from '../../contexts/theme'
 import roshanlight from './roshan_light.png'
 import roshandark from './roshan_dark.png'
+import repdf from "resume.pdf"
 
 const About = () => {
   const { name, role, description, resume, social } = about
@@ -36,7 +37,7 @@ const About = () => {
 
       <div className='about__contact minus-margin center'>
         {resume && (
-          <a href='./resume.pdf' target='_blank' rel='noopener noreferrer'>
+          <a href={repdf} target='_blank' rel='noopener noreferrer'>
             <span type='button' className='btn btn--outline'>
               Resume
             </span>
