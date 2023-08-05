@@ -18,10 +18,10 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-    "test": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
-    "eject": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
+    "eject": "NODE_OPTIONS=--openssl-legacy-provider && react-scripts eject",
     "lint": "eslint .",
     "format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
     "deploy": "gh-pages -d build"
