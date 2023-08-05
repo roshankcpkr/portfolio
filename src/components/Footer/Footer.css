@@ -1,0 +1,15 @@
+.footer {
+  padding: 1em 0;
+  text-align: center;
+  margin-left: 0.9em;
+}
+
+.icon {
+  margin-right: 0.8em;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 1em;
+  }
+}
