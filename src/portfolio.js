@@ -38,12 +38,12 @@ const projects = [
     stack: ['Nextjs', 'Thirdweb', 'Leaflet', 'Mantine'],
     sourceCode: 'https://github.com/projectashik/meta-goblins-vertex',
   },
-  {
-    name: 'GetChatGpt',
+    {
+    name: 'CellSight- Tuberculosis Bacilli Detector',
     description:
-      'NPM package that enable users to easily add chatgpt api in their application',
-    stack: ['JavaScript', 'Nodejs'],
-    sourceCode: 'https://github.com/roshankcpkr/chatgptapi',
+      'An innovative medical diagnostic tool that leverages artificial intelligence to detect tuberculosis bacilli in microscope slides. This project combines IoT hardware with advanced machine learning to provide accurate, real-time TB detection in resource-limited settings.',
+    stack: ['Flask', 'Tensorflow Lite', 'Custom Vision', 'Raspberrypi', 'sqlite', 'Esp32 Cam'],
+    sourceCode: 'https://github.com/roshankcpkr/tuberculosis-bacilli-detector',
   },
 ]
 
