@@ -6,7 +6,7 @@ import './About.css'
 import { ThemeContext } from '../../contexts/theme'
 import roshanlight from './roshan_light.png'
 import roshandark from './roshan_dark.png'
-import repdf from "./roshanresume.pdf"
+import repdf from "./roshanros.pdf"
 
 const About = () => {
   const { name, role, description, resume, social } = about
